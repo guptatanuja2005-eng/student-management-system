@@ -165,30 +165,14 @@ DELETE /api/students/:id
 
 ```text
 GET /api/dashboard
-```
 
-## 📸 Screenshots
-
-Add screenshots of your application here after completing the UI.
-
-Example:
-
-```text
-screenshots/
-├── home.png
-├── login.png
-├── dashboard.png
-└── students.png
 ```
 
 ## 🔮 Future Improvements
 
-* Search and filter students
-* Pagination
 * Role-based admin access
 * Export student data
 * Improved validation
-* Deployment with a live demo
 * Advanced dashboard analytics
 
 ## 👩‍💻 Author

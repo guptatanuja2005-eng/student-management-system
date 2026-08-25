@@ -1,0 +1,159 @@
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:90vh;
+    padding:80px 8%;
+    background:#F8FAFC;
+    gap:60px;
+}
+
+.hero-left{
+    flex:1;
+}
+
+.hero-badge{
+    display:inline-block;
+    background:#DBEAFE;
+    color:#0c379a;
+    padding:8px 18px;
+    border-radius:20px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.hero-left h1{
+    font-size:60px;
+    color:#111827;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.hero-left p{
+    color:#6B7280;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.hero-features{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-bottom:35px;
+}
+
+.feature-box{
+    background:white;
+    padding:12px 18px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    font-weight:500;
+}
+
+.dashboard-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#2563EB;
+    color:white;
+    padding:14px 28px;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.dashboard-btn:hover{
+    background:#1D4ED8;
+    transform:translateY(-3px);
+}
+
+.hero-right{
+    flex:1;
+    text-align:center;
+}
+
+.hero-right img{
+    width:100%;
+    max-width:600px;
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.hero-right img:hover{
+    transform:scale(1.02);
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-left h1{
+    font-size:42px;
+}
+
+.hero-features{
+    justify-content:center;
+}
+
+.hero-right img{
+    margin-top:40px;
+}
+
+}
+
+.hero-right{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+}
+
+.feature-box{
+    width:330px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    padding:22px;
+    background:#fff;
+    border-radius:18px;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.feature-box:hover{
+    transform:translateY(-6px);
+    box-shadow:0 18px 35px rgba(37,99,235,.18);
+}
+
+.feature-icon{
+    font-size:38px;
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    background:#eff6ff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.feature-box h3{
+    margin:0;
+    color:#1e293b;
+    font-size:22px;
+    font-weight:600;
+}
+
+.feature-box p{
+    margin-top:6px;
+    color:#64748b;
+    font-size:15px;
+    line-height:1.5;
+}

@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+.container{
+    width:700px;
+    margin:auto;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+input{
+    padding:12px;
+    font-size:16px;
+}
+
+button{
+    padding:12px;
+    background:#0077ff;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056cc;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:15px;
+    border-radius:10px;
+    box-shadow:0 0 5px gray;
+}

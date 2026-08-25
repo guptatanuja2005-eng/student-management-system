@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.register-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#F3F4F6;
+    padding:20px;
+}
+
+.register-card{
+    width:100%;
+    max-width:450px;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.register-card h1{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.register-card p{
+    text-align:center;
+    color:#6B7280;
+    margin-bottom:30px;
+}
+
+.input-group{
+    display:flex;
+    align-items:center;
+    border:1px solid #D1D5DB;
+    border-radius:10px;
+    margin-bottom:20px;
+    padding:0 15px;
+}
+
+.input-icon{
+    color:#6B7280;
+}
+
+.input-group input{
+    flex:1;
+    border:none;
+    outline:none;
+    padding:15px;
+    font-size:16px;
+}
+
+.eye-icon{
+    cursor:pointer;
+}
+
+.register-btn{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#2563EB;
+    color:white;
+    border-radius:10px;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.register-btn:hover{
+    background:#1D4ED8;
+}
+
+.login-link{
+    margin-top:25px;
+    text-align:center;
+}
+
+.login-link a{
+    color:#2563EB;
+    text-decoration:none;
+    font-weight:600;
+}
+
+@media(max-width:500px){
+
+.register-card{
+    padding:25px;
+}
+
+}

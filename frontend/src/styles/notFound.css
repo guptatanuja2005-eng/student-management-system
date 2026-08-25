@@ -1,0 +1,36 @@
+.notfound-container{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#f8fafc;
+}
+
+.notfound-container h1{
+    font-size:120px;
+    color:#2563eb;
+    margin:0;
+}
+
+.notfound-container h2{
+    margin:10px 0;
+}
+
+.notfound-container p{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.home-btn{
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.home-btn:hover{
+    background:#1d4ed8;
+}

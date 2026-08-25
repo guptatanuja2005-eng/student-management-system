@@ -1,0 +1,23 @@
+.charts-container{
+
+display:grid;
+
+grid-template-columns:2fr 1fr;
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.chart-card{
+
+background:white;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
